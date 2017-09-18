@@ -3,7 +3,7 @@
 
 [![Latest Version](https://img.shields.io/github/release/Artistan/eloquent-sortable.svg?style=flat-square)](https://github.com/Artistan/eloquent-sortable/releases)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Total Downloads](https://img.shields.io/packagist/dt/Artistan/eloquent-sortable.svg?style=flat-square)](https://packagist.org/packages/Artistan/eloquent-sortable)
+[![Total Downloads](https://img.shields.io/packagist/dt/artistan/eloquent-sortable.svg?style=flat-square)](https://packagist.org/packages/artistan/eloquent-sortable)
 
 This package provides a trait that adds sortable behaviour to an Eloquent model.
 
