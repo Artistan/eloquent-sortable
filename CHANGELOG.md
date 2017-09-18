@@ -2,6 +2,11 @@
 
 All notable changes to `eloquent-sortable` will be documented in this file
 
+## 3.5.0
+
+- forked from spatie version per his instructions
+- added unique key setting to allow multiple sortable lists in one table
+
 ## 3.4.1
 
 - fix deps
