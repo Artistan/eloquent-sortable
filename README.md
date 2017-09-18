@@ -2,8 +2,6 @@
 
 
 [![Latest Version](https://img.shields.io/github/release/Artistan/eloquent-sortable.svg?style=flat-square)](https://github.com/Artistan/eloquent-sortable/releases)
-[![Build Status](https://img.shields.io/travis/Artistan/eloquent-sortable.svg?style=flat-square)](https://travis-ci.org/spatie/eloquent-sortable)
-[![Quality Score](https://img.shields.io/scrutinizer/g/Artistan/eloquent-sortable.svg?style=flat-square)](https://scrutinizer-ci.com/g/Artistan/eloquent-sortable)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![Total Downloads](https://img.shields.io/packagist/dt/Artistan/eloquent-sortable.svg?style=flat-square)](https://packagist.org/packages/Artistan/eloquent-sortable)
 
