@@ -1,11 +1,15 @@
 {
-    "name": "spatie/eloquent-sortable",
+    "name": "Artistan/eloquent-sortable",
     "description": "Sortable behaviour for eloquent models",
-    "homepage": "https://github.com/spatie/eloquent-sortable",
+    "homepage": "https://github.com/Artistan/eloquent-sortable",
     "authors": [
         {
             "name": "Freek Van der Herten",
             "email": "freek@spatie.be"
+        },
+        {
+            "name": "Charles Peterson",
+            "email": "artistan@gmail.com"
         }
     ],
     "keywords":
@@ -30,12 +34,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\EloquentSortable\\": "src/"
+            "Artistan\\EloquentSortable\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\EloquentSortable\\Test\\": "tests"
+            "Artistan\\EloquentSortable\\Test\\": "tests"
         }
     }
 }
