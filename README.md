@@ -1,13 +1,11 @@
 # Sortable behaviour for Eloquent models
 
 
-[![Latest Version](https://img.shields.io/github/release/spatie/eloquent-sortable.svg?style=flat-square)](https://github.com/spatie/eloquent-sortable/releases)
-[![SensioLabsInsight](https://img.shields.io/sensiolabs/i/fb7765b9-7632-4897-8054-22d85b41ffda.svg)](https://insight.sensiolabs.com/projects/fb7765b9-7632-4897-8054-22d85b41ffda)
-[![Build Status](https://img.shields.io/travis/spatie/eloquent-sortable.svg?style=flat-square)](https://travis-ci.org/spatie/eloquent-sortable)
-[![Quality Score](https://img.shields.io/scrutinizer/g/spatie/eloquent-sortable.svg?style=flat-square)](https://scrutinizer-ci.com/g/spatie/eloquent-sortable)
+[![Latest Version](https://img.shields.io/github/release/Artistan/eloquent-sortable.svg?style=flat-square)](https://github.com/Artistan/eloquent-sortable/releases)
+[![Build Status](https://img.shields.io/travis/Artistan/eloquent-sortable.svg?style=flat-square)](https://travis-ci.org/spatie/eloquent-sortable)
+[![Quality Score](https://img.shields.io/scrutinizer/g/Artistan/eloquent-sortable.svg?style=flat-square)](https://scrutinizer-ci.com/g/Artistan/eloquent-sortable)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![StyleCI](https://styleci.io/repos/21866232/shield?branch=master)](https://styleci.io/repos/21866232)
-[![Total Downloads](https://img.shields.io/packagist/dt/spatie/eloquent-sortable.svg?style=flat-square)](https://packagist.org/packages/spatie/eloquent-sortable)
+[![Total Downloads](https://img.shields.io/packagist/dt/Artistan/eloquent-sortable.svg?style=flat-square)](https://packagist.org/packages/Artistan/eloquent-sortable)
 
 This package provides a trait that adds sortable behaviour to an Eloquent model.
 
@@ -30,21 +28,21 @@ The best postcards will get published on the open source page on our website.
 This package can be installed through Composer.
 
 ```
-$ composer require spatie/eloquent-sortable
+$ composer require Artistan/eloquent-sortable
 ```
 
 ## Usage
 
 To add sortable behaviour to your model you must:<br />
-1. specify that the model will conform to ```Spatie\EloquentSortable\Sortable```<br />
-2. use the trait ```Spatie\EloquentSortable\SortableTrait```<br />
+1. specify that the model will conform to ```Artistan\EloquentSortable\Sortable```<br />
+2. use the trait ```Artistan\EloquentSortable\SortableTrait```<br />
 3. specify which column will be used as the order column<br />
 
 ### Example
 
 ```php
-use Spatie\EloquentSortable\Sortable;
-use Spatie\EloquentSortable\SortableTrait;
+use Artistan\EloquentSortable\Sortable;
+use Artistan\EloquentSortable\SortableTrait;
 
 class MyModel extends Eloquent implements Sortable
 {
