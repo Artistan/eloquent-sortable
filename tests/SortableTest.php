@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\EloquentSortable\Test;
+namespace Artistan\EloquentSortable\Test;
 
 use Illuminate\Support\Collection;
 
